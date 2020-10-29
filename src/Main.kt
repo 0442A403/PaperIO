@@ -4,6 +4,7 @@ import java.lang.Math.*
 import java.util.*
 import kotlin.collections.ArrayList
 
+
 val scanner = Scanner(System.`in`)
 val config = JSONObject(scanner.nextLine()).getJSONObject("params")!!
 val N = config.getInt("x_cells_count")
